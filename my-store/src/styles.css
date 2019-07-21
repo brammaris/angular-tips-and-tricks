@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body { 
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.cdk-overlay-backdrop.cdk-overlay-backdrop-showing.gray-backdrop {
+      background: #000;
+      opacity: 0.75 !important;
+}
+  

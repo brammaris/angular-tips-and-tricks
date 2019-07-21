@@ -1,0 +1,8 @@
+<form class="example-form" [formGroup]="form">
+    <mat-form-field class="example-full-width">
+        <input matInput placeholder="Name" [formControlName]="FORM_PARAMS.name" required>
+    </mat-form-field>
+    <p>
+        <button mat-stroked-button (click)="submitOnClick()">Save</button>
+    </p>
+</form>
